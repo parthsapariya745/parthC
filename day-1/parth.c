@@ -8,6 +8,6 @@ int main(){
     printf("y = ");
     scanf("%d",&y);
 
-    Ans = (x + y) * (x + y);
+    Ans = (x - y)*(x - y);
     printf("Ans = %d",Ans);
 }
