@@ -8,12 +8,12 @@ int main(){
 
     if (number < 0)
     {
-        printf("This number is Negative",number);
+        printf("This number is Negative");
     }
 
     else if (number == 0)
     {
-        printf("This number is Neutral",number);
+        printf("This number is Neutral");
     }
     
     else{
