@@ -9,7 +9,9 @@ int main(){
     while (end <= user)
     {
         if (user % 2 == 1)
-           printf("%d\n",user);
+        {
+            printf("%d\n",user);
+        }
            user--;
     }
 }

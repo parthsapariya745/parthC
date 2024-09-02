@@ -1,18 +1,20 @@
 #include<stdio.h>
 
 int main(){
-    int start,end;
+    int first,last;
 
     printf("enter the first year : ");
-    scanf("%d",&start);
+    scanf("%d",&first);
 
     printf("enter the last year : ");
-    scanf("%d",&end);
+    scanf("%d",&last);
 
-    while (start <= end)
+    while (first <= last)
     {   
-        if (start % 4 == 0)
-        printf("%d\n",start);
-        start++;
+        if (first % 4 == 0)
+        {
+            printf("%d\n",first);
+        }
+        first++;
     }
 }
