@@ -12,6 +12,6 @@ int main(){
         {
             printf("%d\n",user);
         }
-           user--;
+        user--;
     }
 }
