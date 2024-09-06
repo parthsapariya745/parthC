@@ -1,11 +1,15 @@
 #include<stdio.h>
 
 int main(){
-    char word = 'a';
+    char start = 'a';
 
     do
     {
-        printf("%c\t ", word);
-        word += 4; 
-    } while (word <= 'z');
+        if (start % 4 == 1)
+
+        {
+            printf("%c\t",start);
+        }
+        start++;
+    } while (start <= 'z');
 }
