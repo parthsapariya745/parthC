@@ -7,7 +7,7 @@ int main(){
         {
             printf("  ");
         }
-        
+
         for (int col = raw; col <= 5; col++)
         {
             printf("%d ",col);
