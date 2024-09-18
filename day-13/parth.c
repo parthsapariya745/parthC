@@ -7,10 +7,10 @@ int main(){
     scanf("%d",&user);
 
     int a[user];
-    for (int len = 0; len < user; len++)
+    for (int i = 0; i < user; i++)
     {
         printf("Enter array elements: ");
-        scanf("%d",&a[len]);
+        scanf("%d",&a[i]);
     }
     printf("Length of an Array: %d\n",user);
 }
