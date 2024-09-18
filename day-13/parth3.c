@@ -9,7 +9,7 @@ int main(){
     int a[user];
     for (int i = 0; i < user; i++)
     {
-        printf("Enter array A's elements: ");
+        printf("Enter array A's elements a[%d]: ");
         scanf("%d",&a[i]);
     }
 
@@ -18,7 +18,7 @@ int main(){
     int b[user];
     for (int i = 0; i < user; i++)
     {
-        printf("Enter array B's elements: ");
+        printf("Enter array B's elements b[%d]: ");
         scanf("%d",&b[i]);
     }
 
