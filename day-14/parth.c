@@ -1,7 +1,8 @@
 #include<stdio.h>
 
 int main(){
-    int rowsize,colsize,sum = 0,store;
+    int rowsize,colsize,store;
+    float sum = 0;
 
     printf("Enter the array's row size: ");
     scanf("%d",&rowsize);
@@ -24,6 +25,6 @@ int main(){
         }
     }
 
-    float avg = (float)sum / store; 
+    float avg = sum / store; 
     printf("Average of an Array: %.2f",avg);
 }
