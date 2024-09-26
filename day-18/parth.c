@@ -16,12 +16,18 @@ int calc(){
     printf("Enter your choice: ");
     scanf("%d",&user);
 
+    if (user == 0 && user < 6)
+    {
+        printf("Enter the first number: ");
+        scanf("%d",&value1);
 
-    printf("Enter the first number: ");
-    scanf("%d",&value1);
+        printf("Enter the second number: ");
+        scanf("%d",&value2);
+    }
 
-    printf("Enter the second number: ");
-    scanf("%d",&value2);
+    else{
+        
+    }
 
     switch (user)
     {
