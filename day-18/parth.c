@@ -16,18 +16,11 @@ int calc(){
     printf("Enter your choice: ");
     scanf("%d",&user);
 
-    if (user == 0 && user < 6)
-    {
-        printf("Enter the first number: ");
-        scanf("%d",&value1);
+    printf("Enter the first number: ");
+    scanf("%d",&value1);
 
-        printf("Enter the second number: ");
-        scanf("%d",&value2);
-    }
-
-    else{
-        
-    }
+    printf("Enter the second number: ");
+    scanf("%d",&value2);
 
     switch (user)
     {
@@ -56,7 +49,7 @@ int calc(){
         printf("module of %d and %d is %d",value1,value2,ans);
         break;
     default:
-    printf("invalid number for the exit");
+        printf("invalid number for the exit");
         break;
     }
 }
