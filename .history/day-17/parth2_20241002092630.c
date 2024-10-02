@@ -2,14 +2,13 @@
 
 int string(){
     char user[100];
-    int length = 0;
 
     printf("Enter any string: ");
-    gets(user);
+    getc(user);
 
-    for (int i = 0; i < user[i]; i++)
+    for (int i = 0; i < user[length]; i++)
     {
-        length++;
+        length = i;
     }
     printf("Length is: %d",length);
 }

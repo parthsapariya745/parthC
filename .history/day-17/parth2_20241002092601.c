@@ -5,11 +5,11 @@ int string(){
     int length = 0;
 
     printf("Enter any string: ");
-    gets(user);
+    ge
 
-    for (int i = 0; i < user[i]; i++)
+    for (int i = 0; i < user[length]; i++)
     {
-        length++;
+        length = i;
     }
     printf("Length is: %d",length);
 }

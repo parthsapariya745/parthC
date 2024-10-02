@@ -2,10 +2,10 @@
 
 int string(){
     char user[100];
-    int length = 0;
+    int length =;
 
     printf("Enter any string: ");
-    gets(user);
+    getc(user);
 
     for (int i = 0; i < user[i]; i++)
     {

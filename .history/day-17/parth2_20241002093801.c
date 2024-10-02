@@ -11,7 +11,7 @@ int string(){
     {
         length++;
     }
-    printf("Length is: %d",length);
+    printf("Length is: %d",le);
 }
 
 int main(){
