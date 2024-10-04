@@ -18,7 +18,7 @@ int main(){
     else{
         odd++;
     }
-    user = user / 10 ;
+    user = user / 10;
    }
    
     printf("even number %d \n",even);
