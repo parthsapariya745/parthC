@@ -3,9 +3,9 @@
 int main(){
   
   int user,digit;
-  int even = 0, odd = 0;
+  int even = 0,odd = 0;
 
-  printf("enter the number  : ");
+  printf("enter the number: ");
   scanf("%d",&user);
 
    while (user != 0)
