@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int raw, col;
+    int row, col;
 
-    for (raw = 1; raw <= 5; raw++) {
+    for (row = 1; row <= 5; row++) {
         for (col = 1; col <= 5; col++) {
-            if ((raw == 2 && col > 1 && col < 5) || 
-                (raw == 4 && col > 1) || 
-                (raw == 5 && col > 1)) {
+            if ((row == 2 && col > 1 && col < 5) || 
+                (row == 4 && col > 1) || 
+                (row == 5 && col > 1)) {
                 printf("  "); 
             } else {
                 printf(" *"); 
@@ -15,5 +15,4 @@ int main() {
         }
         printf("\n");
     }
-    return 0;
 }
